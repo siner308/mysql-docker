@@ -9,6 +9,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     environment:
       - MYSQL_ROOT_PASSWORD=$ROOT_PASSWORD
+      - TZ=Asia/Seoul
     volumes:
       - $VOLUME_DIR:/var/lib/mysql
 
