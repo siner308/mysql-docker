@@ -1,6 +1,7 @@
 version: '2'
 services:
   mysql:
+    platform: linux/amd64
     restart: always
     image: mysql:8.0
     container_name: mysql
