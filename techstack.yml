@@ -1,7 +1,8 @@
 repo_name: siner308/mysql-docker
 report_id: f17b736ed12a66487b7384376fa0ff68
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T10:20:27+00:00'
+timestamp: '2024-01-05T08:40:04+00:00'
 requested_by: siner308
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Data Stores
   sub_category: SQL Database as a Service
   image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/siner308/mysql-docker/blob/master/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: siner308
   last_updated_on: 2020-02-17 10:12:27.000000000 Z
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/siner308/mysql-docker
   detection_source: Repo Metadata
 - name: Adminer
   description: Full-featured database management tool written in PHP.
@@ -33,6 +36,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/siner308/mysql-docker/blob/master/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: jeonghyun.an
   last_updated_on: 2022-02-15 01:43:09.000000000 Z
